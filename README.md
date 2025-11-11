@@ -45,50 +45,50 @@ Includes role-based dashboard views, recipe sharing, and real-time chat support 
 ---
 
 ## 📁 Project Structure
-
-gym-planner/
-│
-├── client/ # Frontend (React + Vite)
-│ ├── src/
-│ │ ├── App.jsx
-│ │ ├── main.jsx
-│ │ ├── pages/
-│ │ │ ├── DashboardUser.jsx
-│ │ │ ├── DashboardInstructor.jsx
-│ │ │ └── DashboardAdmin.jsx
-│ │ └── services/
-│ │ └── api.js # Axios instance + API utils
-│ ├── index.html
-│ ├── vite.config.js
-│ └── package.json
-│
-├── server/ # Backend (Node + Express + Socket.IO)
-│ ├── src/
-│ │ ├── server.js # Server bootstrapping
-│ │ ├── app.js # Express app configuration
-│ │ ├── config/
-│ │ │ └── db.js # Database connection
-│ │ ├── middleware/
-│ │ │ └── auth.js # JWT validation middleware
-│ │ ├── models/
-│ │ │ ├── User.js
-│ │ │ ├── Workout.js
-│ │ │ ├── DietPlan.js
-│ │ │ ├── Recipe.js
-│ │ │ ├── ForumPost.js
-│ │ │ └── Message.js
-│ │ └── routes/
-│ │ ├── auth.js
-│ │ ├── users.js
-│ │ ├── workouts.js
-│ │ ├── diets.js
-│ │ ├── recipes.js
-│ │ ├── messages.js
-│ │ └── forum.js
-│ └── package.json
-│
-├── setup.md
-└── README.md
+    
+    gym-planner/
+    │
+    ├── client/ # Frontend (React + Vite)
+    │ ├── src/
+    │ │ ├── App.jsx
+    │ │ ├── main.jsx
+    │ │ ├── pages/
+    │ │ │ ├── DashboardUser.jsx
+    │ │ │ ├── DashboardInstructor.jsx
+    │ │ │ └── DashboardAdmin.jsx
+    │ │ └── services/
+    │ │ └── api.js # Axios instance + API utils
+    │ ├── index.html
+    │ ├── vite.config.js
+    │ └── package.json
+    │
+    ├── server/ # Backend (Node + Express + Socket.IO)
+    │ ├── src/
+    │ │ ├── server.js # Server bootstrapping
+    │ │ ├── app.js # Express app configuration
+    │ │ ├── config/
+    │ │ │ └── db.js # Database connection
+    │ │ ├── middleware/
+    │ │ │ └── auth.js # JWT validation middleware
+    │ │ ├── models/
+    │ │ │ ├── User.js
+    │ │ │ ├── Workout.js
+    │ │ │ ├── DietPlan.js
+    │ │ │ ├── Recipe.js
+    │ │ │ ├── ForumPost.js
+    │ │ │ └── Message.js
+    │ │ └── routes/
+    │ │ ├── auth.js
+    │ │ ├── users.js
+    │ │ ├── workouts.js
+    │ │ ├── diets.js
+    │ │ ├── recipes.js
+    │ │ ├── messages.js
+    │ │ └── forum.js
+    │ └── package.json
+    │
+    ├── setup.md
+    └── README.md
 
 yaml
 Copy code
@@ -120,7 +120,7 @@ npm run dev
 yaml
 Copy code
 
-### 3. Access the App
+### 3. Access the App locally
 - Client UI → http://localhost:5173  
 - Backend API Health → http://localhost:5000/api/health
 
@@ -142,6 +142,3 @@ Copy code
 - 🔔 Push and in-app notifications
 - ✅ Full test coverage + CI pipeline
 
----
-
-## 🤝 Contributing
